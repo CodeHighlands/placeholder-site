@@ -1,0 +1,185 @@
+/* Backgound 
+ www.gradient-animator.com */
+
+body {
+    background: linear-gradient(270deg, #d90429, #2b2d42);
+    background-size: 400% 400%;
+    -webkit-animation: gradient 30s ease infinite;
+    -moz-animation: gradient 30s ease infinite;
+    -o-animation: gradient 30s ease infinite;
+    animation: gradient 30s ease infinite;
+}
+
+@-webkit-keyframes gradient {
+    0% {
+        background-position: 0% 50%
+    }
+    50% {
+        background-position: 100% 50%
+    }
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+@-moz-keyframes gradient {
+    0% {
+        background-position: 0% 50%
+    }
+    50% {
+        background-position: 100% 50%
+    }
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+@-o-keyframes gradient {
+    0% {
+        background-position: 0% 50%
+    }
+    50% {
+        background-position: 100% 50%
+    }
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%
+    }
+    50% {
+        background-position: 100% 50%
+    }
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+
+/* Slide In Animation */
+
+
+/* Keyframes for the fade-in */
+
+@-webkit-keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.fade-in {
+    opacity: 0;
+    opacity: 1 \9;
+    /*just in case ie*/
+    -webkit-animation: fadeIn ease-in 1;
+    -moz-animation: fadeIn ease-in 1;
+    animation: fadeIn ease-in 1;
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    -webkit-animation-duration: 2s;
+    -moz-animation-duration: 2s;
+    animation-duration: 2s;
+}
+
+.fade-in.one {
+    -webkit-animation-delay: 1.1s;
+    -moz-animation-delay: 1.1s;
+    animation-delay: 1.1s;
+}
+
+.fade-in.two {
+    -webkit-animation-delay: 1.3s;
+    -moz-animation-delay: 1.3s;
+    animation-delay: 1.5s;
+}
+
+.fade-in.three {
+    -webkit-animation-delay: 1.6s;
+    -moz-animation-delay: 1.6s;
+    animation-delay: 1.9s;
+}
+
+
+/* Cover */
+
+button:hover {
+    color: black !important;
+}
+
+#cover {
+    height: 100vh;
+}
+
+#logo {
+    position: fixed;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+#content {
+    text-align: center;
+}
+
+#text {
+    padding: 18px;
+}
+
+#text,
+#text a {
+    color: white;
+}
+
+#text h1 {
+    font-size: 24px;
+}
+
+#text p {
+    font-size: 14px;
+    opacity: 0.5;
+    color: white;
+}
+
+#footer {
+    text-align: center;
+    font-size: 12px;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0.25;
+    color: white;
+    position: absolute;
+    bottom: 12px;
+}
+
+#footer p {
+    margin: 0 !important;
+}
+
+#stamp {
+    margin: 12px;
+}
